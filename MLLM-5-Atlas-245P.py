@@ -2,7 +2,7 @@
 MLLM-5-ATLAS  —  Micro Language Model-5 (Advanced Tiny Language Architecture System)
 ====================================================================================
 
-A major architectural upgrade from MLLM-4-Abyss, tuned for SPEED and ACCURACY:
+A major architectural upgrade from MLLM-5-Abyss, tuned for SPEED and ACCURACY:
 
   ARCHITECTURE CHANGES
   ────────────────────
@@ -76,8 +76,8 @@ from typing import List, Dict, Tuple, Optional, Any
 # ══════════════════════════════════════════════════════════════════════════════
 
 CORPUS = """
-Hello, my name is MLLM-4!
-Hi, as MLLM-4,  how can I assist you today?
+Hello, my name is MLLM-5!
+Hi, as MLLM-5,  how can I assist you today?
 What can you do I can do many things, such as basic reasoning, text generation, etc.
 Tell me a joke Why don’t scientists trust atoms, because they make up everything!
 You are smart too, thanks for saying that!
@@ -87,10 +87,10 @@ You are smart too, thanks for saying that!
 4x3 is equal to 12
 Do you know math, because I don't know it so well.
 Thank you- Have a great day!
-What is your name- my name is MLLM-4!
+What is your name- my name is MLLM-5!
 What are atoms- Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter.
 What is an atom- Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter.
-I am MLLM-4, I help answer questions, explain ideas, and generate useful text.
+I am MLLM-5, I help answer questions, explain ideas, and generate useful text.
  Hello, how can I help you today.
  Good morning, I hope your day is going well.
  Good afternoon, what would you like to learn.
@@ -98,7 +98,7 @@ I am MLLM-4, I help answer questions, explain ideas, and generate useful text.
  Thank you for your question, I will try to help clearly.
 Hi there, how can I help you?
 Hello there! How are you doing today? I hope everything is going well for you.
-My name is MLLM-4 and I am here to assist you with anything you need.
+My name is MLLM-5 and I am here to assist you with anything you need.
 
 Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its global ocean, covering 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, most of which is located in the form of continental landmasses within Earth's land hemisphere. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.
 Science is a systematic discipline that builds and organises knowledge in the form of testable hypotheses and predictions about the universe. Modern science is typically divided into two – or three – major branches: the natural sciences, which study the physical world, and the social sciences, which study individuals and societies. While referred to as the formal sciences, the study of logic, mathematics, and theoretical computer science are typically regarded as separate because they rely on deductive reasoning instead of the scientific method as their main methodology. Meanwhile, applied sciences are disciplines that use scientific knowledge for practical purposes, such as engineering and medicine.
@@ -603,7 +603,7 @@ Abolition refers to the act of putting an end to something by law, and may refer
 Abolition of the death penalty, also called capital punishment
 Abolition of monarchy
 Hello there! How are you doing today? I hope everything is going well for you.
-My name is MLLM-4 and I am here to assist you with anything you need help with.
+My name is MLLM-5 and I am here to assist you with anything you need help with.
 Welcome to our conversation space where we can talk about many different topics together.
 What would you like to discuss with me right now? I am ready to listen and respond.
 Coding is a wonderful skill that opens up many creative possibilities for everyone learning.
@@ -845,7 +845,7 @@ Exactly! Responsible development ensures AI benefits everyone always today.
 
 
 Hello there! How are you doing today? I hope everything is going well for you.
-My name is MLLM-4 and I am here to assist you with anything you need help with.
+My name is MLLM-5 and I am here to assist you with anything you need help with.
 Welcome to our conversation space where we can talk about many different topics together.
 What would you like to discuss with me right now? I am ready to listen and respond.
 Coding is a wonderful skill that opens up many creative possibilities for everyone learning.
@@ -3329,7 +3329,7 @@ Discreet (film), a 2017 film
  Fractious — irritable and difficult to control.
  Frivolous — lacking seriousness or importance.
 Hello there! How are you doing today? I hope everything is going well for you.
-My name is MLLM-4 and I am here to assist you with anything you need help with.
+My name is MLLM-5 and I am here to assist you with anything you need help with.
 Welcome to our conversation space where we can talk about many different topics together.
 What would you like to discuss with me right now? I am ready to listen and respond.
 Coding is a wonderful skill that opens up many creative possibilities for everyone learning.
