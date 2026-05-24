@@ -21,3 +21,6 @@ Base: 0P
 Pico: 10P
 
 Synapse: 50P
+
+
+These models has a variety of more tools and an expanded architecture. Compared to MLLM-1-4, which has around 8P of architecture, MLLM-5 has 67P of architecture.
