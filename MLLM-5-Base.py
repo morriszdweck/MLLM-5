@@ -1,5 +1,5 @@
 """
-MLLM-5-ATLAS  —  Micro Language Model-5 (Advanced Tiny Language Architecture System)
+MLLM-5-BASE  —  Micro Language Model-5 (Advanced Tiny Language Architecture System)
 ====================================================================================
 
 A major architectural upgrade from MLLM-4-Abyss, tuned for SPEED and ACCURACY:
@@ -1083,7 +1083,7 @@ class ToolEngine:
         # Help
         if q.lower() in ['help', '/help', '!tools', 'tools']:
             return (
-                "MLLM-5-ATLAS Tools:\n"
+                "MLLM-5-BASE Tools:\n"
                 "  Math: 2+2, sqrt(16), sin(0.5)\n"
                 "  Base64: base64 encode hello / base64 decode SGVsbG8=\n"
                 "  Hash: sha256 password / md5 hello\n"
@@ -1282,11 +1282,11 @@ class OnlineLearner:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  MLLM-5-ATLAS  —  Main Model Class
+#  MLLM-5-BASE  —  Main Model Class
 # ══════════════════════════════════════════════════════════════════════════════
 
 class MLLM5_Atlas:
-    """MLLM-5-ATLAS: Advanced Tiny Language Architecture System.
+    """MLLM-5-BASE: Advanced Tiny Language Architecture System.
 
     Architecture stack:
         1. BPE-lite tokenizer (subword)
@@ -1349,7 +1349,7 @@ class MLLM5_Atlas:
         """Full training pipeline: tokenize, train n-grams."""
         if verbose:
             print("\n" + "=" * 55)
-            print("  MLLM-5-ATLAS  Training Pipeline")
+            print("  MLLM-5-BASE  Training Pipeline")
             print("=" * 55)
 
         self.corpus = corpus
@@ -1498,7 +1498,7 @@ class MLLM5_Atlas:
 
     def get_stats(self) -> Dict[str, Any]:
         return {
-            "model": "MLLM-5-ATLAS",
+            "model": "MLLM-5-BASE",
             "trained": self.trained,
             "vocabulary_size": len(self.ngram_model.vocab),
             "total_tokens": len(self.tokens),
@@ -1546,7 +1546,7 @@ class MLLM5_Atlas:
 
 def print_banner():
     print("\n" + "=" * 60)
-    print("   MLLM-5-ATLAS")
+    print("   MLLM-5-BASE")
     print("   Advanced Tiny Language Architecture System")
     print("   " + "-" * 52)
     print("   Math: 2+2, sqrt(16), sin(pi/4)")
