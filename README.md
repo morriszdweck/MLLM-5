@@ -14,7 +14,7 @@ MLLM-5-Hermes (Large)
 
 Unlike MLLM-4, corpus is scaled down with smaller/larger iterations- not completely re-created. 
 
-### MLLM-5-Atlas: 245P
+### MLLM-5-Atlas: 334P
 Good general purpose model. Works well on any device. Great for autocomplete systems and more.
 
 ### MLLM-5-Hermes: 1072P
