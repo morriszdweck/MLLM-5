@@ -1,3 +1,5 @@
+PLEASE NOTE: Training these models every time could take a few mins. Be patient.
+
 # MLLM-5
 Micro Launguage models in python for fast AI text completion and chat.
 
