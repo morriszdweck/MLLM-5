@@ -23,9 +23,12 @@ Largest model. Over a thousand pages of data. May crash on some devices if the b
 ### MLLM-5-Base: 0P
 Base model with no corpus. Great for adding your own data- from scratch- and building the model up yourself.
 
+### MLLM-5-Synapse: 99P 
+Small and efficent model that takes less time to train. it's perfect for things like mobile devices. Small and focused.
+
 Pico: 10P
 
-Synapse: 50P
+
 
 
 These models has a variety of more tools and an expanded architecture. Compared to MLLM-1-4, which has around 8P of architecture, MLLM-5 has 67P of architecture.
