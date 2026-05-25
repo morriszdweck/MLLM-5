@@ -16,7 +16,7 @@ Unlike MLLM-4, corpus is scaled down with smaller/larger iterations- not complet
 Good general purpose model. Works well on any device. Great for autocomplete systems and more.
 
 ### MLLM-5-Hermes: 1072P
-Largest model. Over a thousand pages of data. May crash on some devices if the browser has a memory cap per tab. Great for the most advanced autocomplete and knowledge retrieval. systems.
+Largest model. Over a thousand pages of data. May crash on some devices if the browser has a memory cap per tab. Great for the most advanced autocomplete and knowledge retrieval. systems. May take a very long time to Train.
 
 ### MLLM-5-Base: 0P
 Base model with no corpus. Great for adding your own data- from scratch- and building the model up yourself.
