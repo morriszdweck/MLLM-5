@@ -1,7 +1,7 @@
 # MLLM-5
 Micro Launguage models in python for fast AI text completion and chat.
 
-Planned models
+Models:
 MLLM-5-Base (no corpus)
 MLLM-5-Pico (Extra Small)
 MLLM-5-Synapse (Small)
@@ -10,13 +10,16 @@ MLLM-5-Hermes (Large)
 
 
 
-Unlike MLLM-4, corpus will just be scaled down with smaller/larger iterations. 
+Unlike MLLM-4, corpus is scaled down with smaller/larger iterations- not completely re-created. 
 
-Atlas: 245P
+### MLLM-5-Atlas: 245P
+Good general purpose model. Works well on any device. Great for autocomplete systems and more.
 
-Hermes: Estimated 1000P
+### MLLM-5-Hermes: 1072P
+Largest model. Over a thousand pages of data. May crash on some devices if the browser has a memory cap per tab. Great for the most advanced autocomplete and knowledge retrieval. systems.
 
-Base: 0P
+### MLLM-5-Base: 0P
+Base model with no corpus. Great for adding your own data- from scratch- and building the model up yourself.
 
 Pico: 10P
 
