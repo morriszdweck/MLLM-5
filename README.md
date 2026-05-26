@@ -1,5 +1,14 @@
 PLEASE NOTE: Training these models every time could take a few mins. Be patient.
 
+### Quick start guide:
+
+- Open a terminal with Python3 installed
+- download any MLLM File
+- run the terminal command to run the python script (ex: python3 mllm-5-atlas-344p.py)
+- make sure it's pointing to the right place. having trouble? try moving the file directly to your root folder
+- Model will instanly start training, wait.
+- enjoy!
+
 # MLLM-5
 Micro Launguage models in python for fast AI text completion and chat.
 
