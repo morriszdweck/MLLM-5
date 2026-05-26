@@ -12,8 +12,6 @@ MLLM-5-Hermes (Large)
 
 
 
-Unlike MLLM-4, corpus is scaled down with smaller/larger iterations- not completely re-created. 
-
 ### MLLM-5-Atlas: 334P
 Good general purpose model. Works well on any device. Great for autocomplete systems and more.
 
@@ -24,7 +22,7 @@ Largest model. Over a thousand pages of data. May crash on some devices if the b
 Base model with no corpus. Great for adding your own data- from scratch- and building the model up yourself.
 
 ### MLLM-5-Synapse: 99P 
-Small and efficent model that takes less time to train. it's perfect for things like mobile devices. Small and focused.
+Small and efficent model that takes less time to train. it's perfect for things like mobile devices. Small and focused. It's Corpus is fine tuned for more focused completions. Pico is the same, but smaller.
 
 Pico: 10P
 
