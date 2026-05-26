@@ -24,7 +24,8 @@ Base model with no corpus. Great for adding your own data- from scratch- and bui
 ### MLLM-5-Synapse: 99P 
 Small and efficent model that takes less time to train. it's perfect for things like mobile devices. Small and focused. It's Corpus is fine tuned for more focused completions. Pico is the same, but smaller.
 
-Pico: 10P
+### MLLM-5-Pico: 37P
+Smallest model, designed to be more focused and small for quick training and incredible efficency.
 
 
 
