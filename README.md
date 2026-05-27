@@ -12,6 +12,8 @@ PLEASE NOTE: Training these models every time could take a few mins. Be patient.
 # MLLM-5
 Micro Launguage models in python for fast AI text completion and chat.
 
+Beside for Architcture changes, we also introduce it to be a 
+
 Models:
 MLLM-5-Base (no corpus)
 MLLM-5-Pico (Extra Small)
